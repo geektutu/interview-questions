@@ -1,0 +1,22 @@
+{
+  "name": "machine-learning-interview-qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geekcircle/machine-learning-interview-qa.git"
+  },
+  "author": "gzdaijie@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geekcircle/machine-learning-interview-qa/issues"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "git@github.com:tekd/gulp-gh-pages.git#update-dependency"
+  }
+}
