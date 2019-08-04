@@ -1,5 +1,5 @@
 ---
-title: 机器学习面试笔试题 1-10
+title: 机器学习笔试面试题 1-10
 seo_title: 极客面试
 date: 2019-08-04 00:10:10
 description: 机器学习(machine learning)/深度学习(deep learning)/面试笔试题(interview questions)，吴恩达(Andrew Ng)机器学习课程(machine learning course)课后习题，CMU 考试题和答案。

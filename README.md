@@ -10,6 +10,11 @@
 
 - [机器学习面试题 1-10](https://geektutu.com/post/qa-ml-1.html)，[md](qa-ml/qa-ml-1.md)
 
+## 相关链接
+
+- [TensorFlow 2.0 中文文档](https://geektutu.com/post/tf2doc.html)，[Github](https://github.com/geektutu/tensorflow2-docs-zh)
+- [TensorFlow 2.0 图像识别&强化学习实战](https://geektutu.com/post/tensorflow2-mnist-cnn.html)，[Github](https://github.com/geektutu/tensorflow-tutorial-samples)
+
 ## 选择题示例
 
 使用决策树分类时，如果输入的某个特征的值是连续的，通常使用二分法对连续属性离散化，即根据是否大于/小于某个阈值进行划分。如果采用多路划分，每个出现的值都划分为一个分支，这种方式的最大问题是：
@@ -42,6 +47,7 @@
 
 **A** 过拟合和欠拟合与神经网络的复杂程度有关，模型越大越容易过拟合。隐藏层节点数量直接决定了模型的大小与复杂程度。
 </div>
+</details>
 
 ## 问答题示例
 
