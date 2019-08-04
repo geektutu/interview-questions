@@ -7,14 +7,15 @@ tags:
 - 机器学习
 categories:
 - 面试题
-image: post/qa-ml-1/interview.jpg
+image: post/qa-ml-1/6_svm.jpg
 github: https://github.com/geektutu/interview-questions
 ---
 
+<p style="color:red">声明：所有习题系博主花费大量精力整理，请尊重劳动成果，禁止转载。</p>
+
 **机器学习(machine learning)深度学习(deep learning)**
 **面试笔试题(interview questions)/课程课后考试习题解答**
-
-<p style="color:red">声明：所有习题系博主花费大量精力整理，请尊重劳动成果，禁止转载。</p>
+**[机器学习笔试面试题汇总](https://geektutu.com/post/qa-ml.html)，[Github](https://github.com/geektutu/interview-questions)**
 
 ## Q1 决策树
 

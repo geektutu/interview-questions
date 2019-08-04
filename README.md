@@ -12,6 +12,8 @@
 
 ## 相关链接
 
+- [知乎专栏](https://zhuanlan.zhihu.com/geektutu)
+- [机器学习笔试面试题](https://geektutu.com/post/qa-ml.html)，[Github](https://github.com/geektutu/interview-questions)
 - [TensorFlow 2.0 中文文档](https://geektutu.com/post/tf2doc.html)，[Github](https://github.com/geektutu/tensorflow2-docs-zh)
 - [TensorFlow 2.0 图像识别&强化学习实战](https://geektutu.com/post/tensorflow2-mnist-cnn.html)，[Github](https://github.com/geektutu/tensorflow-tutorial-samples)
 
