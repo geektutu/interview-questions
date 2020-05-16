@@ -8,7 +8,6 @@ tags:
 categories:
 - 面试题
 image: post/qa-ml/interview.jpg
-top: 3
 github: https://github.com/geektutu/interview-questions
 ---
 
