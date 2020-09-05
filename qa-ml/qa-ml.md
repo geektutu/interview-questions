@@ -5,8 +5,9 @@ date: 2019-08-03 20:10:10
 description: 机器学习(machine learning)/深度学习(deep learning)/面试笔试题(interview questions)，吴恩达(Andrew Ng)机器学习课程(machine learning course)课后习题，CMU 考试题和答案。
 tags:
 - 机器学习
+nav: 面试
 categories:
-- 面试题
+- 机器学习面试题
 image: post/qa-ml/interview.jpg
 github: https://github.com/geektutu/interview-questions
 ---
