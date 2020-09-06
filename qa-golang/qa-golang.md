@@ -49,3 +49,5 @@ github: https://github.com/geektutu/interview-questions
 ## [并发编程](https://geektutu.com/post/qa-golang-3.html)
 
 - 01 无缓冲的 channel 和有缓冲的 channel 的区别？
+- 02 什么是协程泄露(Goroutine Leak)？
+- 03 Go 可以限制运行时使用的CPU核数吗？
