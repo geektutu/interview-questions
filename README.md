@@ -18,6 +18,7 @@
 - [Go 语言笔试面试题(基础语法)](https://geektutu.com/post/qa-golang-1.html)
 - [Go 语言笔试面试题(实现原理)](https://geektutu.com/post/qa-golang-2.html)
 - [Go 语言笔试面试题(并发编程)](https://geektutu.com/post/qa-golang-3.html)
+- [Go 语言笔试面试题(代码输出)](https://geektutu.com/post/qa-golang-c1.html)
 
 ## 相关链接
 

@@ -9,7 +9,6 @@ nav: 面试
 categories:
 - Go 语言面试题
 image: post/qa-golang/go_questions.jpg
-top: 3
 github: https://github.com/geektutu/interview-questions
 ---
 
@@ -51,3 +50,8 @@ github: https://github.com/geektutu/interview-questions
 - 01 无缓冲的 channel 和有缓冲的 channel 的区别？
 - 02 什么是协程泄露(Goroutine Leak)？
 - 03 Go 可以限制运行时操作系统线程的数量吗？
+
+## [代码输出](https://geektutu.com/post/qa-golang-c1.html)
+
+- 变量与常量
+- 作用域
