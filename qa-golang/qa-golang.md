@@ -8,6 +8,7 @@ tags:
 nav: 面试
 categories:
 - Go 语言面试题
+top: 2
 image: post/qa-golang/go_questions.jpg
 github: https://github.com/geektutu/interview-questions
 ---
@@ -55,3 +56,4 @@ github: https://github.com/geektutu/interview-questions
 
 - 变量与常量
 - 作用域
+- defer 延迟调用

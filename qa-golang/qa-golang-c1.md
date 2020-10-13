@@ -173,4 +173,109 @@ func main() {
 </div>
 </details>
 
+## defer 延迟调用
+
+1. 下列代码的输出是：
+
+```go
+type T struct{}
+
+func (t T) f(n int) T {
+	fmt.Print(n)
+	return t
+}
+
+func main() {
+	var t T
+	defer t.f(1).f(2)
+	fmt.Print(3)
+}
+```
+
+
+<details>
+<summary>答案</summary>
+<div>
+
+132
+
+defer 延迟调用时，需要保存函数指针和参数，因此链式调用的情况下，除了最后一个函数/方法外的函数/方法都会在调用时直接执行。也就是说 `t.f(1)` 直接执行，然后执行 `fmt.Print(3)`，最后函数返回时再执行 `.f(2)`，因此输出是 132。
+
+</div>
+</details>
+
+2. 下列代码的输出是：
+
+```go
+func f(n int) {
+	defer fmt.Println(n)
+	n += 100
+}
+
+func main() {
+	f(1)
+}
+```
+
+<details>
+<summary>答案</summary>
+<div>
+
+1
+
+打印 1 而不是 101。defer 语句执行时，会将需要延迟调用的函数和参数保存起来，也就是说，执行到 defer 时，参数 n(此时等于1) 已经被保存了。因此后面对 n 的改动并不会影响延迟函数调用的结果。
+
+</div>
+</details>
+
+3. 下列代码的输出是：
+
+```go
+func main() {
+	n := 1
+	defer func() {
+		fmt.Println(n)
+	}()
+	n += 100
+}
+```
+
+<details>
+<summary>答案</summary>
+<div>
+
+101
+
+匿名函数没有通过传参的方式将 n 传入，因此匿名函数内的 n 和函数外部的 n 是同一个，延迟执行时，已经被改变为 101。
+
+</div>
+</details>
+
+4. 下列代码的输出是：
+
+```go
+func main() {
+	n := 1
+	if n == 1 {
+		defer fmt.Println(n)
+		n += 100
+	}
+	fmt.Println(n)
+}
+```
+
+<details>
+<summary>答案</summary>
+<div>
+
+```
+101
+1
+```
+
+先打印 101，再打印 1。defer 的作用域是函数，而不是代码块，因此 if 语句退出时，defer 不会执行，而是等 101 打印后，整个函数返回时，才会执行。
+
+</div>
+</details>
+
 
