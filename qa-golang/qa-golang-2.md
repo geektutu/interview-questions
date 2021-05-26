@@ -95,7 +95,7 @@ func main() {
 Go 语言中，interface 的内部实现包含了 2 个字段，类型 `T` 和 值 `V`，interface 可以使用 `==` 或 `!=` 比较。2 个 interface 相等有以下 2 种情况
 
 1) 两个 interface 均等于 nil（此时 V 和 T 都处于 unset 状态）
-2）类型 V 相同，且对应的值 V 相等。
+2) 类型 T 相同，且对应的值 V 相等。
 
 看下面的例子：
 
@@ -115,7 +115,7 @@ func main() {
 ```
 
 `stu1` 和 `stu2` 对应的类型是 `*Stu`，值是 Stu 结构体的地址，两个地址不同，因此结果为 false。
-`stu3` 和 `stu3` 对应的类型是 `Stu`，值是 Stu 结构体，且各字段相等，因此结果为 true。
+`stu3` 和 `stu4` 对应的类型是 `Stu`，值是 Stu 结构体，且各字段相等，因此结果为 true。
 
 
 </div>
