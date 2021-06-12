@@ -109,10 +109,15 @@ func main() {
 这个例子中，为了避免网络等问题，采用了无限重试的方式，发送 HTTP 请求，直到获取到数据。那如果 HTTP 服务宕机，永远不可达，导致协程不能退出，发生泄漏。
 
 ```go
-func request(url string, wg sync.WaitGroup) {
+func request(url string, wg *sync.WaitGroup) {
+	i := 0
 	for {
 		if _, err := http.Get(url); err == nil {
 			// write to db
+			break
+		}
+		i++
+		if i >= 3 {
 			break
 		}
 		time.Sleep(time.Second)
@@ -124,7 +129,7 @@ func main() {
 	var wg sync.WaitGroup
 	for i := 0; i < 1000; i++ {
 		wg.Add(1)
-		go request(fmt.Sprintf("exampe.com/%d", i), wg)
+		go request(fmt.Sprintf("https://127.0.0.1:8080/%d", i), &wg)
 	}
 	wg.Wait()
 }
