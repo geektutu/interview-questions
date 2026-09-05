@@ -1,3 +1,14 @@
+---
+title: 机器学习面试题 12：数据挖掘中如何判断关联规则有效性
+description: ''
+date: '2019-08-01 23:35:28'
+tags:
+  - 面试
+book: interview-questions
+status: done
+draft: false
+---
+
 # 12. 数据挖掘中如何判断关联规则有效性
 
 <iframe src="https://ghbtns.com/github-btn.html?user=geektutu&repo=interview-questions&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>

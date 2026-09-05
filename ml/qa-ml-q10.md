@@ -1,3 +1,14 @@
+---
+title: 机器学习面试题 10：支持向量机(SVM)中的支持向量是什么意思
+description: ''
+date: '2019-08-01 23:35:28'
+tags:
+  - 面试
+book: interview-questions
+status: done
+draft: false
+---
+
 # 10. 支持向量机(SVM)中的支持向量是什么意思
 
 <iframe src="https://ghbtns.com/github-btn.html?user=geektutu&repo=interview-questions&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
@@ -19,7 +30,7 @@ C. (−1,1),(1,−1),(1,1),(2,0)
 
 ## 解析
 
-![示意图](./image/10.svm.png)
+![示意图](image/10.svm.png)
 
 在画分割线区分红绿两类点的时候，可以问自己一个问题，你认不认为所有的点对于分割线的位置都是起决定性作用的？
 

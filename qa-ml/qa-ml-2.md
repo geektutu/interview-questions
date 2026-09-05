@@ -1,15 +1,15 @@
 ---
 title: 机器学习笔试面试题 11-20
-seo_title: 极客面试
-date: 2019-08-06 00:10:10
-description: 机器学习(machine learning)/深度学习(deep learning)/面试笔试题(interview questions)，吴恩达(Andrew Ng)机器学习课程(machine learning course)课后习题，CMU 考试题和答案。
+description: >-
+  机器学习(machine learning)/深度学习(deep learning)/面试笔试题(interview questions)，吴恩达(Andrew Ng)机器学习课程(machine learning
+  course)课后习题，CMU 考试题和答案。
+date: '2019-08-06 08:10:10'
 tags:
-- 机器学习
-nav: 面试
-categories:
-- 机器学习面试题
-image: post/qa-ml-2/boosting.jpg
-github: https://github.com/geektutu/interview-questions
+  - 机器学习
+book: interview-questions
+status: done
+draft: false
+cover: qa-ml-2/boosting.jpg
 ---
 
 <p style="color:red">声明：所有习题系博主花费大量精力整理，请尊重劳动成果，禁止转载。</p>

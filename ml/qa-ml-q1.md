@@ -1,3 +1,14 @@
+---
+title: 机器学习面试题 1：如何处理特征向量的缺失值
+description: ''
+date: '2019-08-01 23:35:28'
+tags:
+  - 面试
+book: interview-questions
+status: done
+draft: false
+---
+
 # 1. 如何处理特征向量的缺失值
 
 <iframe src="https://ghbtns.com/github-btn.html?user=geektutu&repo=interview-questions&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>

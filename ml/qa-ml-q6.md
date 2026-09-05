@@ -1,3 +1,14 @@
+---
+title: 机器学习面试题 6：监督学习和无监督学习
+description: ''
+date: '2019-08-01 23:35:28'
+tags:
+  - 面试
+book: interview-questions
+status: done
+draft: false
+---
+
 # 6. 监督学习和无监督学习
 
 <iframe src="https://ghbtns.com/github-btn.html?user=geektutu&repo=interview-questions&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
@@ -18,7 +29,7 @@
 
 这时各位可能要问，既然分类如此之好，聚类如此之不靠谱，那为何我们还可以容忍聚类的存在？因为在实际应用中，标签的获取常常需要极大的人工工作量，有时甚至非常困难。例如在自然语言处理（NLP）中，Penn Chinese Treebank在2年里只完成了4000句话的标签……
 
-![NLP举例](./image/6.nlp.jpg)
+![NLP举例](image/6.nlp.jpg)
 
 这时有人可能会想，难道有监督学习和无监督学习就是非黑即白的关系吗？有没有灰呢？Good idea。灰是存在的。二者的中间带就是半监督学习（semi-supervised learning）。对于半监督学习，其训练数据的一部分是有标签的，另一部分没有标签，而没标签数据的数量常常极大于有标签数据数量（这也是符合现实情况的）。隐藏在半监督学习下的基本规律在于：数据的分布必然不是完全随机的，通过一些有标签数据的局部特征，以及更多没标签数据的整体分布，就可以得到可以接受甚至是非常好的分类结果。（此处大量忽略细节）
 
@@ -45,5 +56,3 @@
 
 无监督学习举例：
 - 新闻分类
-
-

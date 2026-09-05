@@ -1,3 +1,14 @@
+---
+title: 机器学习面试题 7：熵是为消除不确定性所需要获得的信息量，投掷均匀正六面体骰子的熵是
+description: ''
+date: '2019-08-01 23:35:28'
+tags:
+  - 面试
+book: interview-questions
+status: done
+draft: false
+---
+
 # 7. 熵是为消除不确定性所需要获得的信息量，投掷均匀正六面体骰子的熵是
 
 <iframe src="https://ghbtns.com/github-btn.html?user=geektutu&repo=interview-questions&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
@@ -46,8 +57,3 @@ H(骰子)= -\sum^{n}_{i=1}P(Xi)log P(Xi)
 
 　　[推论2]当且仅当某个P(Xi)=1/n，i=1， 2，……， n时，H(X)有极大值log n。
 数值属性是可度量的量，用整数或实数值表示，有区间标度和比率标度两种类型。
-
-
-
-
-

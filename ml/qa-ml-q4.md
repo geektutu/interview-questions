@@ -1,3 +1,14 @@
+---
+title: 机器学习面试题 4：余弦相似与欧氏距离有什么区别和联系
+description: ''
+date: '2019-08-01 23:35:28'
+tags:
+  - 面试
+book: interview-questions
+status: done
+draft: false
+---
+
 # 4. 余弦相似与欧氏距离有什么区别和联系
 
 <iframe src="https://ghbtns.com/github-btn.html?user=geektutu&repo=interview-questions&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
@@ -18,10 +29,9 @@
 
 因此可以将 **求余弦相似转为求欧式距离** ，余弦相似的计算复杂度过高，转为求欧式距离后，可以借助`KDTree`（KNN算法用到）或者`BallTree`（对高维向量友好）来降低复杂度。
 
-![余弦相似](./image/4.cosine.png)
+![余弦相似](image/4.cosine.png)
 
 
 ## 3）参考链接
 
 [知乎：欧氏距离和余弦相似度的区别是什么？](https://www.zhihu.com/question/19640394)
-

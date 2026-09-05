@@ -1,15 +1,13 @@
 ---
 title: Go 语言笔试面试题(实现原理)
-seo_title: 极客面试
-date: 2020-09-04 23:10:10
 description: Go 语言/golang 笔试题，面试题，基础语法与内部实现原理，包括不限于垃圾回收机制(GC)、面向对象、并发编程等。
+date: '2020-09-05 07:10:10'
 tags:
-- Go
-nav: 面试
-categories:
-- Go 语言面试题
-image: post/qa-golang/go_questions.jpg
-github: https://github.com/geektutu/interview-questions
+  - Go
+book: interview-questions
+status: done
+draft: false
+cover: qa-golang/go_questions.jpg
 ---
 
 ![golang interview questions](qa-golang/go_questions.jpg)

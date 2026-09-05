@@ -1,3 +1,14 @@
+---
+title: 机器学习面试题 13：朴素贝叶斯分类某个类别概率为0怎么办
+description: ''
+date: '2019-08-01 23:35:28'
+tags:
+  - 面试
+book: interview-questions
+status: done
+draft: false
+---
+
 # 13. 朴素贝叶斯分类某个类别概率为0怎么办
 
 <iframe src="https://ghbtns.com/github-btn.html?user=geektutu&repo=interview-questions&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
@@ -20,7 +31,7 @@ A1,A2,A3是三个特征，Y是分类结果。A1,A2,A3和Y 均只有0和1两种�
 
 朴素贝叶斯的简易性表现该算法基于一个很朴素的假设：所有的变量都是相互独立的。用贝叶斯定理可以写成
 
-![公式](./image/13.naive.bayes.formula.png)
+![公式](image/13.naive.bayes.formula.png)
 
 但是在很多情况下，所有变量两两之间独立，这几乎是不可能的。
 
@@ -33,7 +44,7 @@ A1,A2,A3是三个特征，Y是分类结果。A1,A2,A3和Y 均只有0和1两种�
 
 ### 2. `1,0,0` 的分类结果是什么？
 
-![拉普拉斯转换](./image/13.laplace.png)
+![拉普拉斯转换](image/13.laplace.png)
 
 > 分母都是相同，所以只计算分子即可。
 

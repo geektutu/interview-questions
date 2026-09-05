@@ -1,3 +1,14 @@
+---
+title: 机器学习面试题 8：数据清洗与特征处理
+description: ''
+date: '2019-08-01 23:35:28'
+tags:
+  - 面试
+book: interview-questions
+status: done
+draft: false
+---
+
 # 8. 数据清洗与特征处理
 
 <iframe src="https://ghbtns.com/github-btn.html?user=geektutu&repo=interview-questions&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
@@ -42,7 +53,7 @@
 
 有些特征可能因为无法采样或者没有观测值而缺失，例如距离特征，用户可能禁止获取地理位置或者获取地理位置失败，此时需要对这些特征做特殊的处理，赋予一个缺省值。缺省值如何赋予，也有很多种方法。例如单独表示，众数，平均值等。
 
-![数据清洗与特征处理](./image/8.数据清洗与特征处理.jpg)
+![数据清洗与特征处理](image/8.数据清洗与特征处理.jpg)
 
 ### 参考
 [https://tech.meituan.com/machinelearning-data-feature-process.html](https://tech.meituan.com/machinelearning-data-feature-process.html)

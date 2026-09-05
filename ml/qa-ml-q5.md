@@ -1,3 +1,14 @@
+---
+title: 机器学习面试题 5：下面哪个不属于数据的属性类别
+description: ''
+date: '2019-08-01 23:35:28'
+tags:
+  - 面试
+book: interview-questions
+status: done
+draft: false
+---
+
 # 5. 下面哪个不属于数据的属性类别
 
 <iframe src="https://ghbtns.com/github-btn.html?user=geektutu&repo=interview-questions&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
@@ -51,4 +62,3 @@
 离散属性具有有限或无限可数个值。如学生成绩属性，优、良、中、差；二元属性取1和0以及年龄属性取0到110。如一个属性可能取值的值集合是无限的，但可以建立一个与自然数的一一对应，则其也是离散属性。如果一个属性不是离散的，则它是连续的。注意：在文献中，术语 “数值属性” 和“连续属性”常可以互换使用，因此，“连续属性”也常被称为“数值属性”。
 
 参考书目《无监督学习方法及其应用》
-

@@ -1,12 +1,23 @@
+---
+title: 机器学习面试题 9：猜测这种划分最可能是什么聚类算法的结果
+description: ''
+date: '2019-08-01 23:35:28'
+tags:
+  - 面试
+book: interview-questions
+status: done
+draft: false
+---
+
 # 9. 猜测这种划分最可能是什么聚类算法的结果
 
 <iframe src="https://ghbtns.com/github-btn.html?user=geektutu&repo=interview-questions&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-![划分结果](./image/9.cluster.question.png)
+![划分结果](image/9.cluster.question.png)
 
 ## 以下是各个算法的比较
 
-![比较](./image/9.cluster.algorithms.png)
+![比较](image/9.cluster.algorithms.png)
 
 ## 各个聚类算法比较的Python代码
 

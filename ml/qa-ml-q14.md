@@ -1,3 +1,14 @@
+---
+title: 机器学习面试题 14：决策树
+description: ''
+date: '2019-08-01 23:35:28'
+tags:
+  - 面试
+book: interview-questions
+status: done
+draft: false
+---
+
 # 14. 决策树
 
 <iframe src="https://ghbtns.com/github-btn.html?user=geektutu&repo=interview-questions&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
@@ -10,7 +21,7 @@
 决策树的根结点是所有样本中信息量最大的属性。树的中间结点是该结点为根的子树所包含的样本子集中信息量最大的属性。决策树的叶结点是样本的类别值。决策树是一种知识表示形式，它是对所有样本数据的高度概括决策树能准确地识别所有样本的类别，也能有效地识别新样本的类别。
 
 
-![决策树举例](./image/14.decision_tree_eg.gif)
+![决策树举例](image/14.decision_tree_eg.gif)
 
 ## 特征选择
 
@@ -33,10 +44,10 @@
 |15|老年|否|否|一般|否|
 
 信息熵（entropy）是用来衡量一个随机变量出现的期望值。如果信息的不确定性越大，熵的值也就越大，出现的各种情况也就越多。
-![信息熵](./image/14.entropy.jpg)
+![信息熵](image/14.entropy.jpg)
 
 信息增益（information gain）是指信息划分前后的熵的变化，也就是说由于使用这个属性分割样例而导致的期望熵降低。也就是说，信息增益就是原有信息熵与属性划分后信息熵（需要对划分后的信息熵取期望值）的差值，具体计算法如下：
-![信息增益](./image/14.gain.jpg)
+![信息增益](image/14.gain.jpg)
 ## ID3算法
 
 决策树算法ID3的基本思想：
@@ -66,7 +77,7 @@ C4.5算法是ID3算法的一种改进。
 信息增益率
 
 设样本集S按离散属性F的c个不同的取值划分为c个子集，则这c个子集的信息熵为：
-![splitInfo](./image/14.splitInfo.jpg)
+![splitInfo](image/14.splitInfo.jpg)
 信息增益率是信息增益与信息熵的比例，如下：
-![信息增益率](./image/14.gain.ratio.jpg)
+![信息增益率](image/14.gain.ratio.jpg)
 ## CART

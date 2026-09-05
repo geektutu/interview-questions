@@ -1,3 +1,14 @@
+---
+title: 机器学习面试题 3：某超市研究销售记录发现买啤酒的人很大概率也会买尿布，这属于数据挖掘的哪类问题?
+description: ''
+date: '2019-08-01 23:35:28'
+tags:
+  - 面试
+book: interview-questions
+status: done
+draft: false
+---
+
 # 3. 某超市研究销售记录发现买啤酒的人很大概率也会买尿布，这属于数据挖掘的哪类问题?
 
 <iframe src="https://ghbtns.com/github-btn.html?user=geektutu&repo=interview-questions&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
